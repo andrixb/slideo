@@ -1,0 +1,9 @@
+$cl: 'app';
+
+.#{$cl} {
+    &__container {
+        padding: 0;
+        margin: 0 auto;
+        background-color: red;
+    }
+}
