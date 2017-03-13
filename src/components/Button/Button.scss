@@ -1,0 +1,21 @@
+$cl: 'button';
+
+.#{$cl} {
+    &__container {
+        width: 100%;
+        align-self: flex-end;
+        text-align: center;
+        margin-top: 15px;
+    }
+    &__element {
+      background-color: #4caf50;
+      border: none;
+      border-radius: 4px;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+    }
+}

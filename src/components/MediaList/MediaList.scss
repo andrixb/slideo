@@ -1,0 +1,16 @@
+$cl: 'medialist';
+
+.#{$cl} {
+    &__list {
+        list-style: none;
+        padding: 0;
+        margin: 3px 0 0;
+        width: 280px;
+        border: 4px solid #4caf50;
+        min-height: 612px;
+    }
+
+    &__item {
+        margin: 15px;
+    }
+}

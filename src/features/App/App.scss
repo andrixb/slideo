@@ -1,0 +1,28 @@
+$cl: 'app';
+
+.#{$cl} {
+    &__container {
+        padding: 0;
+        margin: 0 auto;
+    }
+    &__base {
+        display: inline-block;
+        width: 100%;
+        min-height: calc(690px * (90/150));
+    }
+    &__video, &__medialist {
+        min-height: 687px;
+        float: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &__video {
+        width: 70%;
+    }
+
+    &__medialist {
+        width: 30%;
+    }
+}

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "README.md",
   "scripts": {
-    "build:dev": "webpack --optimize-minimize",
+    "build:dev": "webpack",
     "build:prod": "NODE_ENV=production webpack -p --config ./webpack.prod.config.js",
     "lint:js": "eslint \"src/**/*.jsx\" --ignore-pattern \"node_modules\"",
     "lint:css": "stylelint \"src/**/*.scss\"",
